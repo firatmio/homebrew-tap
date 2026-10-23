@@ -2,7 +2,7 @@
 cask "aletheia" do
   desc "Memory for coding agents that checks itself against your code."
   homepage "https://aletheia.firattunaarslan.me"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "aletheia" do
 
   on_macos do
     on_intel do
-      url "https://github.com/firatmio/aletheia/releases/download/v0.1.0/aletheia_0.1.0_darwin_amd64.tar.gz"
-      sha256 "c0a727e5c43c7bee25e9582be2fb0ac141e3f3558e5e4b471040978c8cc24da2"
+      url "https://github.com/firatmio/aletheia/releases/download/v0.1.1/aletheia_0.1.1_darwin_amd64.tar.gz"
+      sha256 "4729be65e93d5b032fc68dfa414c7068029390f9206dcfa6a48fdcc68aa6f5c9"
     end
     on_arm do
-      url "https://github.com/firatmio/aletheia/releases/download/v0.1.0/aletheia_0.1.0_darwin_arm64.tar.gz"
-      sha256 "2dd4f199c66c19eb003bc522c33c123f2d3c806d00ec76eed91645b8850fbcbc"
+      url "https://github.com/firatmio/aletheia/releases/download/v0.1.1/aletheia_0.1.1_darwin_arm64.tar.gz"
+      sha256 "4eec40bd310c5018c5e56760961c410c88d5d87212508e5feb46d008b2e79ef2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/firatmio/aletheia/releases/download/v0.1.0/aletheia_0.1.0_linux_amd64.tar.gz"
-      sha256 "039dbc280b098d9e908a8a7c196f3026fbc01128c964ac94431b73dfd628201f"
+      url "https://github.com/firatmio/aletheia/releases/download/v0.1.1/aletheia_0.1.1_linux_amd64.tar.gz"
+      sha256 "23b947b7b0a15521ece118f0c734517ff474e6fdb42a89b5d73d787bdd91cade"
     end
     on_arm do
-      url "https://github.com/firatmio/aletheia/releases/download/v0.1.0/aletheia_0.1.0_linux_arm64.tar.gz"
-      sha256 "f795d2c49a188006cb283bf1194ce1967c63fb82af3b59e78492c3687b1f164c"
+      url "https://github.com/firatmio/aletheia/releases/download/v0.1.1/aletheia_0.1.1_linux_arm64.tar.gz"
+      sha256 "e0df630d981d4b4ccf53dd4218e161ea70138a9528f54271f71ddde8312ffd91"
     end
   end
 
